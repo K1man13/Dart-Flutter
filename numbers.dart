@@ -1,35 +1,19 @@
-// whole numbers (integers)
-// decimal numbers (double)
 void main(){
-  int num1 = 43;
-  // decimal numbers (doubles)
+  //declaring variables
+  //data-type/ variable name / value 
+   int num1 = 100;
+   double num2 = 130.2;
+   num num3 = 50;
+   num num4 = 100;
 
-  double num2 = 43.5;
-  var addition = num1 + num2;
-  print (addition); 
+  // For Sum  
+num sum = num1 + num2 + num3 + num4;
+ 
+// Printing Info  
+print("Num 1 is $num1");
+print("Num 2 is $num2"); 
+print("Num 3 is $num3"); 
+print("Num 4 is $num4"); 
+print("Sum is $sum"); 
 
-  // floating point numbers (doubles)
-  double num3 = 1.2;
-  double num4 = 3.7;
-  int num5 = 55;
-  var subtraction = num3 - num4 - num5;
-  print (subtraction);
-
-  // whole numbers (integers)
-  int num6 = 55;
-  int num7 = 2;
-  var multiplication = num6 * num7;
-  print (multiplication);
-
-  // whole numbers (integers)
-  int num8 = 25;
-  int num9 = 4;
-  var division = num8 / num9;
-  print (division);
-
-  // whole numbers (integers)
-  int num10 = 10;
-  int num11 = 3;
-  var remainder = num10 % num11;
-  print (remainder);
 }
